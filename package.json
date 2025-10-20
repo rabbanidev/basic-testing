@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --reporter=verbose --run"
+    "test": "vitest --reporter=verbose --run --environment jsdom"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jsdom": "^27.0.1",
     "vitest": "^3.2.4"
   }
 }
