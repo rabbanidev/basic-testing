@@ -247,3 +247,145 @@ figcaption {
   outline: 3px solid rgba(37, 99, 235, 0.5);
   outline-offset: 2px;
 }
+
+/* Users component */
+.users-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.users-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+.add-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.add-btn:hover {
+  background: #0056b3;
+}
+
+.user-list {
+  list-style: none;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.user-item {
+  background: #f8f9fa;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Fruit list */
+.fruit-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.input-group button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #218838;
+}
+
+.fruit-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fruit-item {
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px 0;
+  margin: 6px 0;
+  border: 1px solid #ddd;
+}
