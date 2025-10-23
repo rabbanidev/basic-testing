@@ -1,5 +1,10 @@
+import Count from "./components/Count";
+import Debug from "./components/Debug";
+import Form from "./components/Form";
 import FruitList from "./components/FruitList";
 import PrimaryButton from "./components/PrimaryButton";
+import Status from "./components/Status";
+import Todos from "./components/Todos";
 import Users from "./components/Users";
 
 export default function App() {
@@ -7,12 +12,35 @@ export default function App() {
     <div>
       {/* <h1>I am learning testing.</h1> */}
       {/* <PrimaryButton /> */}
-      <Users
+      {/* <Users
         initialUsers={[
           { id: "1", name: "Golam Rabbani", title: "developer", role: "admin" },
         ]}
-      />
+      /> */}
       {/* <FruitList fruits={["Apple", "Mango", "Banana"]} /> */}
+
+      {/* <Status status="success" /> */}
+      {/* <Todos /> */}
+      {/* <Debug
+        users={[
+          {
+            id: "1",
+            name: "Golam Rabbani",
+            role: "admin",
+          },
+          {
+            id: "2",
+            name: "Hasan",
+            role: "user",
+          },
+        ]}
+      /> */}
+      {/* <Count /> */}
+      <Form
+        onSubmit={(data) => {
+          console.log(data);
+        }}
+      />
     </div>
   );
 }
